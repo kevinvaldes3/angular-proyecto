@@ -3,6 +3,12 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@personajes/":["src/app/personajes/*"],
+      "@estudiantes/":["src/app/estudiantes/*"],
+      "@profesores/":["src/app/Profesores/*"],
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
